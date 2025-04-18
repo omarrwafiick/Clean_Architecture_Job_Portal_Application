@@ -1,0 +1,13 @@
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\bin\Debug\net8.0\DomainLayer.deps.json
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfoInputs.cache
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfo.cs
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.dll
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\refint\DomainLayer.dll
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.pdb
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\bin\Debug\net8.0\DomainLayer.runtimeconfig.json
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MVG5+P/aeos=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sphinx\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\sphinx\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\sphinx\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
