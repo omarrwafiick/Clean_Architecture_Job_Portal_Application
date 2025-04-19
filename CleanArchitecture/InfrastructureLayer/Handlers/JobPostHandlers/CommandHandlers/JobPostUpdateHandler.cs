@@ -19,8 +19,8 @@ namespace InfrastructureLayer.Handlers.JobPostHandlers.CommandHandlers
         {
             var result = await _updateRepository.UpdateAsync(request.Entity);
 
-            return result ? ServiceResult.Success("Entity was deleted Successfully")
-                          : ServiceResult.Failure("Failed to delete entity");
+            return result ? ServiceResult.Success("Entity was updated Successfully")
+                          : ServiceResult.Failure("Failed to update entity");
         }
     }
 }

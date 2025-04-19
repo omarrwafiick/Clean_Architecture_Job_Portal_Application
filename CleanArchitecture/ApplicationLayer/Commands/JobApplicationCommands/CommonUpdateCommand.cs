@@ -7,5 +7,7 @@ namespace ApplicationLayer.Commands.JobApplicationCommands
    public class JobApplicationUpdateCommand : IRequest<ServiceResult>
     {
         public JobApplication Entity { get; set; }
+          
+        public Guid CompanyId { get; init; }
     }
 }

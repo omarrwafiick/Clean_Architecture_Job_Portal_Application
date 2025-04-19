@@ -302,8 +302,24 @@
   },
   {
     "ContainingType": "PresentationLayerApi.Controllers.JobApplicationsController",
-    "Method": "UpdateAsync",
+    "Method": "DeleteAsync",
     "RelativePath": "api/JobApplications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayerApi.Controllers.JobApplicationsController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/JobApplications/{id}/{companyid}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -314,24 +330,13 @@
         "IsRequired": true
       },
       {
+        "Name": "companyid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
         "Name": "data",
         "Type": "ApplicationLayer.Dtos.UpdateJobApplicationDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PresentationLayerApi.Controllers.JobApplicationsController",
-    "Method": "DeleteAsync",
-    "RelativePath": "api/JobApplications/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

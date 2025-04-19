@@ -52,12 +52,12 @@ namespace PresentationLayerApi.Controllers
             return newApplication.SuccessOrNot ? Ok(newApplication.Message) : BadRequest(newApplication.Message);
         }
 
-        [HttpPut("{id:guid}")]
-        public async Task<ActionResult> UpdateAsync([FromRoute] Guid id, [FromBody] UpdateJobApplicationDto data)
+        [HttpPut("{id:guid}/{companyid:guid}")]
+        public async Task<ActionResult> UpdateAsync([FromRoute] Guid id, [FromRoute] Guid companyid ,[FromBody] UpdateJobApplicationDto data)
         {
             var exists = await _mediator.Send(new JobApplicationByIdQuery { Id = id });
             if (exists is null) return NotFound("Company was not found");
-            var updatedApplication = await _mediator.Send(new JobApplicationUpdateCommand { Entity = data.MapUpdateJopApplicationDtoToDomain(exists) });
+            var updatedApplication = await _mediator.Send(new JobApplicationUpdateCommand { CompanyId = companyid, Entity = data.MapUpdateJopApplicationDtoToDomain(exists) });
             return updatedApplication.SuccessOrNot ? Ok(updatedApplication.Message) : BadRequest(updatedApplication.Message);
         }
 

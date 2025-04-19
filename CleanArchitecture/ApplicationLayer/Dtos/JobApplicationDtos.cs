@@ -36,7 +36,10 @@ namespace ApplicationLayer.Dtos
 
         [Required]
         public Guid ApplicationStatusId { get; init; }
-          
+
+        [Required]
+        public Guid CandidateId { get; init; }
+
     }
 
 }

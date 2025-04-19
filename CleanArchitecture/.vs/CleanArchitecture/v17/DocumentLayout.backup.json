@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C33544D-6393-447F-AB01-FE3873C2395C}|PresentationLayerApi\\PresentationLayerApi.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\cleanarchitectureapi\\cleanarchitecture\\presentationlayerapi\\controllers\\jobapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C33544D-6393-447F-AB01-FE3873C2395C}|PresentationLayerApi\\PresentationLayerApi.csproj|solutionrelative:presentationlayerapi\\controllers\\jobapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61414091-8A08-4476-A295-6BDA604B41F5}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\cleanarchitectureapi\\cleanarchitecture\\infrastructurelayer\\handlers\\jobapplicationhandlers\\queryhandlers\\jobapplicationgetwithconditionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61414091-8A08-4476-A295-6BDA604B41F5}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\handlers\\jobapplicationhandlers\\queryhandlers\\jobapplicationgetwithconditionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85D176FE-6278-48D1-962D-143390DFC8A3}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\cleanarchitectureapi\\cleanarchitecture\\applicationlayer\\queries\\jobapplicationqueries\\jobapplicationgetwithconditionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85D176FE-6278-48D1-962D-143390DFC8A3}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\queries\\jobapplicationqueries\\jobapplicationgetwithconditionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JobApplicationGetWithConditionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\Handlers\\JobApplicationHandlers\\QueryHandlers\\JobApplicationGetWithConditionHandler.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Handlers\\JobApplicationHandlers\\QueryHandlers\\JobApplicationGetWithConditionHandler.cs",
-              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\Handlers\\JobApplicationHandlers\\QueryHandlers\\JobApplicationGetWithConditionHandler.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Handlers\\JobApplicationHandlers\\QueryHandlers\\JobApplicationGetWithConditionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T15:40:53.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JobApplicationGetWithConditionQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\Queries\\JobApplicationQueries\\JobApplicationGetWithConditionQuery.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Queries\\JobApplicationQueries\\JobApplicationGetWithConditionQuery.cs",
-              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\Queries\\JobApplicationQueries\\JobApplicationGetWithConditionQuery.cs",
-              "RelativeToolTip": "ApplicationLayer\\Queries\\JobApplicationQueries\\JobApplicationGetWithConditionQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T15:40:35.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JobApplicationsController.cs",
               "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\Controllers\\JobApplicationsController.cs",
               "RelativeDocumentMoniker": "PresentationLayerApi\\Controllers\\JobApplicationsController.cs",
               "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\Controllers\\JobApplicationsController.cs",
               "RelativeToolTip": "PresentationLayerApi\\Controllers\\JobApplicationsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDsAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T13:30:16.948Z",
+              "WhenOpened": "2025-04-19T16:30:58.65Z",
               "EditorCaption": ""
             }
           ]
