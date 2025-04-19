@@ -35,7 +35,17 @@ namespace ApplicationLayer.Extensions
                 domain.JobPosts.Select(x => x.MapJopPostDomainToDto()),
                 domain.Applications.Select(x => x.MapJobApplicatioDomainToDto())
             );
-        } 
+        }
 
+        public static GetAppUserForCompanyDto MapAppUserDomainToDtoForCompany(this AppUser domain)
+        {
+            return new GetAppUserForCompanyDto
+            (
+                domain.Id,
+                domain.FullName,
+                domain.Email,
+                domain.RoleId
+            );
+        }
     }
 }

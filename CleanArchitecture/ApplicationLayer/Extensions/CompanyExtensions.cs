@@ -48,12 +48,13 @@ namespace ApplicationLayer.Extensions
                 domain.Name,
                 domain.Description,
                 domain.Website,
-                domain.Employees.Select(x=>x.MapAppUserDomainToDto())
+                domain.Employees.Select(x => x.MapAppUserDomainToDtoForCompany())
             );
         }
 
         public static Company MapUpdateCompanyDtoToDomain(this UpdateCompanyDto dto, Company domain)
         {
+            domain.Name = dto.Name;
             domain.Website = dto.Website;
             domain.Description = dto.Description;
             return domain;

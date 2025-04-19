@@ -6,7 +6,7 @@ namespace ApplicationLayer.Dtos
 {
     public record GetCompanyDto(Guid Id, string Name, string Website, string Description);
     public record GetCompanyDtoWithPosts(Guid Id, string Name, string Website, string Description, IEnumerable<GetJopPostDto> posts);
-    public record GetCompanyDtoWithEmployees(Guid Id, string Name, string Website, string Description, IEnumerable<GetAppUserDto> employees);
+    public record GetCompanyDtoWithEmployees(Guid Id, string Name, string Website, string Description, IEnumerable<GetAppUserForCompanyDto> employees);
     public record CreateCompanyDto
     {
         [Required]

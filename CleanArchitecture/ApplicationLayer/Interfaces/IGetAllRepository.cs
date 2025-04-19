@@ -8,5 +8,6 @@ namespace ApplicationLayer.Interfaces
         Task<IEnumerable<T>> GetAll();
         Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>> condition);
         Task<IEnumerable<T>> GetAll(Expression<Func<T, object>> include);
+        Task<IEnumerable<T>> GetAll(Expression<Func<T, object>> include1, Expression<Func<T, object>> include2);
     }
 }

@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ApplicationLayer.Dtos
 {
-    public record GetAppUserDto(Guid Id, string FullName, string Email, Guid RoleId, IEnumerable<GetJopPostDto> userJobPosts, IEnumerable<GetJobApplicationDto> userJobApplications);
+    public record GetAppUserDto(Guid Id, string FullName, string Email, Guid RoleId, IEnumerable<GetJopPostDto>? userJobPosts, IEnumerable<GetJobApplicationDto>? userJobApplications);
+    public record GetAppUserForCompanyDto(Guid Id, string FullName, string Email, Guid RoleId);
     public record CreateAppUserDto
     {
         [Required]

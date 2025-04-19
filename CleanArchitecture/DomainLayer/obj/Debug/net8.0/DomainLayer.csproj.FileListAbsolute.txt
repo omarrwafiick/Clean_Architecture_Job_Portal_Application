@@ -11,3 +11,4 @@ C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitectur
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\bin\Debug\net8.0\DomainLayer.runtimeconfig.json
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.genruntimeconfig.cache
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\DomainLayer\obj\Debug\net8.0\DomainLayer.sourcelink.json

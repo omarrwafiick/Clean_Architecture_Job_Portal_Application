@@ -17,3 +17,4 @@ C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitectur
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\InfrastructureLayer\obj\Debug\net8.0\InfrastructureLayer.pdb
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\InfrastructureLayer\obj\Debug\net8.0\InfrastructureLayer.genruntimeconfig.cache
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\InfrastructureLayer\obj\Debug\net8.0\ref\InfrastructureLayer.dll
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\InfrastructureLayer\obj\Debug\net8.0\InfrastructureLayer.sourcelink.json

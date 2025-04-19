@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\AppUserCommands\" />
     <Folder Include="Commands\JobApplicationCommands\" />
     <Folder Include="Commands\JobPostCommands\" />
     <Folder Include="Queries\JobApplicationQueries\" />

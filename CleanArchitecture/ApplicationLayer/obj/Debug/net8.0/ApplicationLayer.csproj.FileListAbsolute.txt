@@ -13,3 +13,4 @@ C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitectur
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\ApplicationLayer\obj\Debug\net8.0\refint\ApplicationLayer.dll
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.pdb
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\ApplicationLayer\obj\Debug\net8.0\ref\ApplicationLayer.dll
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.sourcelink.json

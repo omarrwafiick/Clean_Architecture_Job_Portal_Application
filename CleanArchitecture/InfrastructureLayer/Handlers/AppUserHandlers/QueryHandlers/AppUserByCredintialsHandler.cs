@@ -15,10 +15,9 @@ namespace InfrastructureLayer.Handlers.AppUserHandlers.QueryHandlers
         }
 
         public async Task<bool> Handle(ApplicationLayer.Queries.AppUsers.AppUserByCredintialsQuery request, CancellationToken cancellationToken)
-        {
-            var hashedPassword = UserSecurityService.HashPassword(request.LoginAppUserDto.Password);
+        { 
             var user = await _repository.Get(x => x.Email == request.LoginAppUserDto.Email);
-            return UserSecurityService.VerifyPassword(hashedPassword, user.Password);
+            return UserSecurityService.VerifyPassword(user.Password, request.LoginAppUserDto.Password);
         }
     }
 }

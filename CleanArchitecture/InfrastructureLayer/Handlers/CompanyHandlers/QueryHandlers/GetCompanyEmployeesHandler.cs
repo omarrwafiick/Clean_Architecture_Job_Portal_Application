@@ -4,7 +4,7 @@ using DomainLayer.Models;
 using MediatR;
 namespace InfrastructureLayer.Handlers.CompanyHandlers.QueryHandlers
 {
-    internal class GetCompanyEmployeesHandler : IRequestHandler<GetCompanyEmployeesQuery, Company>
+    public class GetCompanyEmployeesHandler : IRequestHandler<GetCompanyEmployeesQuery, Company>
     {
         private readonly IGetRepository<Company> _repository;
         public GetCompanyEmployeesHandler(IGetRepository<Company> repository)

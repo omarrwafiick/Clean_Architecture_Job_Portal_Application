@@ -21,11 +21,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Handlers\AppUserHandlers\CommandHandlers\" />
-    <Folder Include="Handlers\JobApplicationHandlers\CommandHandlers\" />
-    <Folder Include="Handlers\JobApplicationHandlers\QueryHandlers\" />
-    <Folder Include="Handlers\JobPostHandlers\CommandHandlers\" />
-  </ItemGroup>
-
 </Project>

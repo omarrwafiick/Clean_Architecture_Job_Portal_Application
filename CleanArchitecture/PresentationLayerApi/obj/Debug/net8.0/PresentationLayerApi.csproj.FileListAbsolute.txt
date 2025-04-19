@@ -149,3 +149,4 @@ C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitectur
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\PresentationLayerApi\bin\Debug\net8.0\DomainLayer.pdb
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\PresentationLayerApi\bin\Debug\net8.0\MediatR.dll
 C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\PresentationLayerApi\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\sphinx\Documents\My Projects\Apis\CleanArchitectureApi\CleanArchitecture\PresentationLayerApi\obj\Debug\net8.0\PresentationLayerApi.sourcelink.json

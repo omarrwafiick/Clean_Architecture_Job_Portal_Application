@@ -1,8 +1,8 @@
-﻿using ApplicationLayer.Interfaces;
-using ApplicationLayer.Queries.Common;
+﻿using ApplicationLayer.Interfaces; 
 using InfrastructureLayer.Data; 
-using InfrastructureLayer.Implementations.Repositories;
+using InfrastructureLayer.Implementations.Repositories; 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,18 +22,24 @@ builder.Services.AddRateLimiter(options =>
     });
 });
 
-builder.Services.AddControllers(); 
+builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "PresentationLayerApi", Version = "v1" });
+});
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddMediatR(config => 
-    config.RegisterServicesFromAssembly(typeof(CommonGetAllQuery<>).Assembly)
-);
+builder.Services.AddMediatR(config =>
+{
+    config.RegisterServicesFromAssembly(typeof(ApplicationLayer.AssemblyReference).Assembly); 
+    config.RegisterServicesFromAssembly(typeof(InfrastructureLayer.AssemblyReference).Assembly);
+}); 
 
 builder.Services.AddScoped(typeof(ICreateRepository<>), typeof(CreateRepository<>));
 builder.Services.AddScoped(typeof(IUpdateRepository<>), typeof(UpdateRepository<>));
@@ -42,12 +48,13 @@ builder.Services.AddScoped(typeof(IGetAllRepository<>), typeof(GetAllRepository<
 builder.Services.AddScoped(typeof(IGetRepository<>), typeof(GetRepository<>));
 
 var app = builder.Build();
- 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PresentationLayerApi v1"));
 }
+
 app.UseRateLimiter();
 
 app.UseHttpsRedirection();

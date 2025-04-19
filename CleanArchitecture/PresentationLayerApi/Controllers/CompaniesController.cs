@@ -1,17 +1,14 @@
-﻿using ApplicationLayer.Commands.Common;
-using ApplicationLayer.Commands.CompanyCommands;
+﻿using ApplicationLayer.Commands.CompanyCommands;
 using ApplicationLayer.Dtos;
-using ApplicationLayer.Extensions;
-using ApplicationLayer.Queries.Common;
-using ApplicationLayer.Queries.CompanyQueries;
-using DomainLayer.Models;
+using ApplicationLayer.Extensions; 
+using ApplicationLayer.Queries.CompanyQueries; 
 using MediatR;
 using Microsoft.AspNetCore.Mvc; 
 
 namespace PresentationLayerApi.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class CompaniesController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -23,14 +20,14 @@ namespace PresentationLayerApi.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAllAsync()
         {
-            var companies = await _mediator.Send(new CommonGetAllQuery<Company>());
+            var companies = await _mediator.Send(new CompanyGetAllQuery());
             return companies.Any() ? Ok(companies.Select(c => c.MapCompanyDomainToDto())) : NotFound("No company was found");
         }
 
         [HttpGet("{id:guid}")]
         public async Task<ActionResult> GetByIdAsync([FromRoute] Guid id)
         {
-            var company = await _mediator.Send(new CommonByIdQuery<Company> { Id = id });
+            var company = await _mediator.Send(new CompanyByIdQuery { Id = id });
             return company is not null ? Ok(company.MapCompanyDomainToDto()) : NotFound($"No company was found using this id => {id}");
         }
 
@@ -38,7 +35,7 @@ namespace PresentationLayerApi.Controllers
         public async Task<ActionResult> GetAllCompanyPostsAsync([FromRoute] Guid id)
         {
             var company = await _mediator.Send(new GetCompanyPostsQuery { Id = id });
-            return company is not null ? Ok(company.MapCompanyDomainToDtoWithPosts()) 
+            return company is not null ? Ok(company.MapCompanyDomainToDtoWithPosts().posts) 
                                        : NotFound($"No company was found using this id => {id}");
         }
 
@@ -46,16 +43,16 @@ namespace PresentationLayerApi.Controllers
         public async Task<ActionResult> GetAllCompanyEmployeesAsync([FromRoute] Guid id)
         {
             var company = await _mediator.Send(new GetCompanyEmployeesQuery { Id = id });
-            return company is not null ? Ok(company.MapCompanyDomainToDtoWithEmployees()) 
+            return company is not null ? Ok(company.MapCompanyDomainToDtoWithEmployees().employees) 
                                        : NotFound($"No company was found using this id => {id}");
         }
 
         [HttpPost]
         public async Task<ActionResult> CreateAsync([FromBody] CreateCompanyDto data)
         {
-            var isExists = await _mediator.Send(new CommonGetWithConditionQuery<Company> { condition = x => x.Name == data.Name });
+            var isExists = await _mediator.Send(new CompanyGetWithConditionQuery { condition = x => x.Name == data.Name });
             if (isExists is not null) return BadRequest($"Company is already exists with name {data.Name}");
-            var newCompany = await _mediator.Send(new CommonCreateCommand<Company> { Entity = data.MapCompanyDtoToDomain() });
+            var newCompany = await _mediator.Send(new CompanyCreateCommand { Entity = data.MapCompanyDtoToDomain() });
             return newCompany.SuccessOrNot? Ok(newCompany.Message) : BadRequest(newCompany.Message);
         }
 
@@ -69,20 +66,20 @@ namespace PresentationLayerApi.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> UpdateAsync([FromRoute] Guid id, [FromBody] UpdateCompanyDto data)
         {
-            var exists = await _mediator.Send(new CommonByIdQuery<Company> { Id = id });
+            var exists = await _mediator.Send(new CompanyByIdQuery { Id = id });
             if (exists is null) return NotFound("Company was not found");
-            var updatedCompany = await _mediator.Send(new CommonUpdateCommand<Company> { Entity = data.MapUpdateCompanyDtoToDomain(exists) });
+            var updatedCompany = await _mediator.Send(new CompanyUpdateCommand { Entity = data.MapUpdateCompanyDtoToDomain(exists) });
             return updatedCompany.SuccessOrNot ? Ok(updatedCompany.Message) : BadRequest(updatedCompany.Message);
         }
 
-        [HttpDelete("{id:guid}")]
+        [HttpDelete("company/{id:guid}")]
         public async Task<ActionResult> DeleteAsync([FromRoute] Guid id)
         {
-            var company = await _mediator.Send(new CommonDeleteCommand<Company> { Id = id });
+            var company = await _mediator.Send(new CompanyDeleteCommand { Id = id });
             return company.SuccessOrNot ? Ok(company.Message) : BadRequest(company.Message);
         }
 
-        [HttpDelete("{employeeid:guid}")]
+        [HttpDelete("emoloyee/{employeeid:guid}")]
         public async Task<ActionResult> RemoveEmployeeAsync([FromRoute] Guid employeeid)
         {
             var removedEmployee = await _mediator.Send(new RemoveEmployeeFromCompanyCommand { EmployeeId = employeeid });
