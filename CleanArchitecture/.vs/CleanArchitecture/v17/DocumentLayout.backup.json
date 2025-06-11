@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\rest\\cleanarchitectureapi\\cleanarchitecture\\domainlayer\\models\\mainentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\mainentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\rest\\cleanarchitectureapi\\cleanarchitecture\\domainlayer\\models\\jobtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\jobtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\rest\\cleanarchitectureapi\\cleanarchitecture\\domainlayer\\models\\jobpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\jobpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\rest\\cleanarchitectureapi\\cleanarchitecture\\domainlayer\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\rest\\cleanarchitectureapi\\cleanarchitecture\\domainlayer\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|c:\\users\\sphinx\\documents\\my projects\\apis\\rest\\cleanarchitectureapi\\cleanarchitecture\\domainlayer\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2746361-09F6-4E24-9DE5-0FEB6DB40D51}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,12 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -26,6 +47,88 @@
             {
               "$type": "Bookmark",
               "Name": "ST:119168537:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainEntity.cs",
+              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\MainEntity.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\MainEntity.cs",
+              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\MainEntity.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\MainEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:40:23.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobType.cs",
+              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\JobType.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\JobType.cs",
+              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\JobType.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\JobType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:40:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobPost.cs",
+              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\JobPost.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\JobPost.cs",
+              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\JobPost.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\JobPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:40:14.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobApplication.cs",
+              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\JobApplication.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\JobApplication.cs",
+              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\JobApplication.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\JobApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:40:09.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\Company.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:40:02.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\Models\\AppUser.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:39:54.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

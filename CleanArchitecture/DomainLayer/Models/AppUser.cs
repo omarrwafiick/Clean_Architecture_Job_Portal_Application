@@ -2,6 +2,7 @@
 
 namespace DomainLayer.Models
 {
+
     public class AppUser : IBaseEntity
     {
         public Guid Id { get; set; }
