@@ -25,9 +25,39 @@ builder.Services.AddRateLimiter(options =>
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen(options =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "PresentationLayerApi", Version = "v1" });
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "My API",
+        Version = "v1",
+        Description = "API Documentation with JWT Authentication"
+    });
+
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Enter 'Bearer {your token}'"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new List<string>()
+        }
+    });
 });
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -64,22 +94,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-//[PresentationLayer]
-//      |
-//[ApplicationLayer]
-//  |           |
-//Commands    Queries
-//  |           |
-//Handlers(Mediator)
-//      |
-//[DomainLayer]
-//      |
-//[InfrastructureLayer]
-
-
-//Write Flow:
-//Controller → Command → MediatR → Handler → Repository → DB
-
-//Read Flow:
-//Controller → Query → MediatR → Handler → Repository → DB → DTO
+ 

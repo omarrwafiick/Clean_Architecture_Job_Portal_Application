@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QzypSz0FAws=",
+  "dgSpecHash": "aEyWpd4q/wo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj",
+  "projectFilePath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sphinx\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sphinx\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

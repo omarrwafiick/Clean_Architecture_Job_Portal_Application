@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj": {}
+    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj": {
+    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj",
         "projectName": "ApplicationLayer",
-        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj",
         "packagesPath": "C:\\Users\\sphinx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\obj\\",
+        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,15 +27,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Microservices\\Microservices\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }
@@ -80,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj": {
+    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj",
+        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj",
         "packagesPath": "C:\\Users\\sphinx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,7 +102,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Microservices\\Microservices\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -154,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "projectName": "InfrastructureLayer",
-        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "packagesPath": "C:\\Users\\sphinx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\obj\\",
+        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -177,18 +175,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Microservices\\Microservices\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj": {
-                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj"
+              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj": {
+                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj"
               },
-              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }
@@ -247,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj": {
+    "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj",
+        "projectUniqueName": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj",
         "projectName": "PresentationLayerApi",
-        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj",
+        "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\PresentationLayerApi.csproj",
         "packagesPath": "C:\\Users\\sphinx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\obj\\",
+        "outputPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\PresentationLayerApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -270,18 +267,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Microservices\\Microservices\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj": {
-                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj"
+              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj": {
+                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\ApplicationLayer\\ApplicationLayer.csproj"
               },
-              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj": {
-                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj"
+              "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+                "projectPath": "C:\\Users\\sphinx\\Documents\\My Projects\\Apis\\Rest\\CleanArchitectureApi\\CleanArchitecture\\InfrastructureLayer\\InfrastructureLayer.csproj"
               }
             }
           }
